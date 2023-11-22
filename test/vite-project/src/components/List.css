@@ -1,0 +1,23 @@
+.list{
+    background-color: #1f1e30;
+}
+
+.list > ul li{
+    background-color: #1f1e30;
+    text-align: left;
+    }
+
+.list > ul{
+display: flex;    
+flex-direction: column;
+align-items: flex-start;
+}
+
+.list > ul  li svg{
+margin-right: 3px;
+margin-bottom: 5px;
+}
+
+.list-group{
+    --bs-list-group-border-color: none;
+}
